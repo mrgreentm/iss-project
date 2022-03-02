@@ -1,0 +1,14 @@
+.header-container {
+    background-image: url('../../assets/wave.svg');
+    width: 100vw;
+    height: 70px;
+    text-align: center;
+}
+
+.title-container {
+    font-size: 1.3rem;
+}
+
+.title-container h1 {
+    color: #fff;
+}

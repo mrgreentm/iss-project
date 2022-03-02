@@ -1,0 +1,52 @@
+.data-container {
+    margin: auto;
+    background-color: #27303658;
+    border-radius: 40px;
+    display: flex;
+    padding: 25px;
+    gap: 50px;
+}
+
+.latitude,
+.longitude {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0), 1px 0px 0px rgb(0, 0, 0);
+}
+
+.latitude {
+    background-color: #a94e65;
+}
+
+.longitude {
+    background-color: #3074a3;
+}
+
+.chart-data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.label-data {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    ;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0), 1px 0px 0px rgb(0, 0, 0);
+}
+
+p {
+    color: #fff;
+}
